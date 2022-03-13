@@ -13,6 +13,6 @@ Password: admin
 
 NOTE: Login page data is saved in session storage.
 
-## Clients Page
+# Clients Page
 
 NOTE: Client page data is saved in local storage.
