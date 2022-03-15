@@ -38,10 +38,6 @@ LoadClientPage = () => {
 
 Save = (name, cpf, address, city, state) => {
 
-  cpf = (cpf.lenght == 11)
-    ? MaskCPF(cpf)
-    : cpf;
-
   let client = { cpf, name, address, city, state };
 
   clients.push(client);
